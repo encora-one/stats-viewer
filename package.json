@@ -1,0 +1,19 @@
+{
+  "name": "stats-viewer",
+  "version": "0.1.0",
+  "repository": "git@github.com:encora-one/stats-viewer.git",
+  "license": "AGPL-3.0-or-later",
+  "scripts": {
+    "watch": "webpack --watch",
+    "serve": "webpack serve",
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^6.3.2",
+    "html-webpack-plugin": "^4.5.0",
+    "webpack": "^5.6.0",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
